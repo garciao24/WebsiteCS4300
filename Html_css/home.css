@@ -1,0 +1,8 @@
+/* Fig. 12.3: style.css */
+/* CSS for dom.html. */
+
+
+#showcase{
+   min-height:400px;
+   background:url('../img/scHome.jpg') no-repeat 0 -400px;
+}
