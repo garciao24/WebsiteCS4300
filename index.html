@@ -47,13 +47,13 @@
      </div>
   </section>
 
+
+
   <section id="donation">
     <p>DONATION AMOUNT</p>
-
-     <div class="at-radio">
-    <div class="at-radios clearfix">
+ <div class="radio-toolbar">
 <label class="label-amount" title="$25">
-        <input name="SelectAmount" type="radio" value="25.00">
+        <input name="SelectAmount" type="radio" value="25.00" checked>
         $25
 <a></a> </label><label class="label-amount" title="$50">
         <input name="SelectAmount" type="radio" value="50.00">
@@ -64,27 +64,28 @@
 <a></a> </label><label class="label-amount" title="$100">
         <input name="SelectAmount" type="radio" value="100.00">
         $100
-<a></a> </label><label class="label-amount" title="$250">
-        <input name="SelectAmount" type="radio" value="250.00">
-        $250
-<a></a> </label><label class="label-amount" title="$500">
-        <input name="SelectAmount" type="radio" value="500.00">
-        $500
 <a></a> </label><label class="label-amount label-otheramount" title="Other">
         <input name="SelectAmount" type="radio" class="radio-other" value="other">
         Other
 <input type="number" tabindex="-1" autocomplete="transaction-amount" class="edit-otheramount" name="OtherAmount" title="Other Amount" placeholder="0.00">
             <span class="label-otheramount-prefix">$</span>
-</label>    </div>
-  </div>
-  </section>
+</label> 
+</div>
+    <button type="submit" class="button_1">Pay with Card</button>
+    <button type="submit" class="button_1">Paypal</button>
+
+  </Section>
+
+
+
+
 
   <section id="newsletter">
    <div class="container">
-    <h1 style="color:#ffffff;">Subsrcibe for News and Volunteer opportunities</h1>
+    <h1 style="color:#ffffff;">Subscribe for News and Volunteer opportunities</h1>
     <form>
       <input type="email" placeholder="Enter Email...">
-      <button type="submit" class="button_1">Subscribe</button>
+      <button type="submit" class="button_1" onclick="alert('Thank you for subscribing')">Subscribe</button>
     </form>
    </div>
   </section>
