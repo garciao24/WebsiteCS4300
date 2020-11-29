@@ -1,6 +1,12 @@
 /* Fig. 12.3: style.css */
 /* CSS for dom.html. */
 
+body {
+    background-image: url('../img/dHome.jpeg'); 
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+      }
 
 #showcase{
    min-height:400px;
