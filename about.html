@@ -3,37 +3,100 @@
 <html>
    <head>
       <meta charset = "utf-8">
-      <meta name"viewport" content="width=device-width">
-      <meta name"description" content="Affordible">
-      <meta name"author" content= "placeholder">
-      <title>Webdesign Homepage</title>  
-      <link rel="stylesheet" href="style.css">
+      <title>About Us</title>
+				
+     <style type = "text/css">
+         body { background-color: #95acb3; }
+
+         .flexbox 
+         {
+            width: 800px;
+            height: 900px;
+            display: -webkit-box;
+            display: box;
+            -webkit-box-orient: horizontal;
+            box-orient: horizontal;
+         }
+         .flexbox > div 
+         {
+            -webkit-transition: .5s ease-out;
+            transition: .5s ease-out;
+            -webkit-border-radius: 40px;
+            border-radius: 10px;
+            border: 2px solid black;
+            width: 260px;
+            margin: 10px -10px 10px 0px;
+            padding: 40px 40px 40px 40px;
+            box-shadow: 10px 10px 10px dimgrey;
+         }
+         .flexbox > div:nth-child(1){ background-color: #7c96a0; }
+         .flexbox > div:nth-child(2){ background-color: #91a6af; }
+         .flexbox > div:nth-child(3){ background-color: #a6b7be; }
+         .flexbox > div:nth-child(4){ background-color: #bac8cd; }
+
+         .flexbox > div:hover { 
+            width: 500px; color: white; font-weight: bold; }
+         .flexbox > div:nth-child(1):hover { background-color: #548cc9; }
+         .flexbox > div:nth-child(2):hover { background-color: #6f9fd1; }
+         .flexbox > div:nth-child(3):hover { background-color: #8ab1da; }
+         .flexbox > div:nth-child(4):hover { background-color: #a5c3e2; }
+         p { height: 250px; overflow: hidden; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
+		 
+		 img {max-width:100%;}
+      </style>
+
    </head>
-  <body>
-      <header>
-        <div class="container">
-         <div id="branding">
-           <h1><span class="highlight">Company </span>placeholder</h1>
-        </div>
-        <nav>
-          <u1>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="services.html">Services</a></li> 
-            <li class="current"><a href="about.html">About</a></li>
-            <li><a href="update.html">Update</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </u1>
-        </nav>
-       </div>
-      </header>
 
-     <section id="showcase">
-      <div class ="container">
-       <h1>nice title placeholder</h1>
-      </div>
-     </section>
-
-
-   </body>  
+   <body>
+      <h1 style = "width: 75%; text-align: center; text-shadow: 2px 2px 6px DimGrey;">
+	  About Us and Our Cause
+	  </strong></h1>
+	  
+	  <div class = "flexbox">
+      <div><img src = "info_icon.png" alt = "Woops Icon">
+         <p>General Info:
+		 </p></div>
+		 
+	  <div><img src = "covid_19_icon.PNG" alt = "Woops Icon">
+         <p>Local Covid Update
+		 </p></div>
+	  
+	  <div><img src = "accompl_icon.png" alt = "Woops Icon">
+        <ol>Accomplishment so far:</strong></ol>
+		<ol> - Started in May of 2020 -</strong></ol>
+             <li>Charity</li>
+             <li>Donations</li>
+             <li>Training</li>
+			
+		<ol> - Future Plans -</strong></ol>
+            <li>Working</li>
+		
+	   </div>
+	   
+	   <div><img src = "newsletter_icon.png" alt = "Woops Icon">
+	     <input type = "hidden" name = "recipient"
+            value = "-@gmail">
+         <input type = "hidden" name = "subject" 
+            value = "Feedback Form">
+         <input type = "hidden" name = "redirect" 
+            value = "main.html"> 
+			
+		 <p>Sign up for our Newsletter!
+         <p>Name:
+            <input name = "name" type = "text" size = "25"
+                  maxlength = "30">
+			</label></p>
+			
+		 <p><label>Email Address:<br>
+            <textarea name = "email"
+               rows = "4" cols = "36">Enter email address here.</textarea>
+			</label></p>
+  
+            <input type = "submit" value = "Submit">
+            <input type = "reset" value = "Clear">
+	   </p></div>
+	   
+   </body>
+   
 </html>
 
