@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name"viewport" content="width=device-width">
+    <meta name"description" content="Affordible">
+    <meta name"author" content="placeholder">
+    <title>Webdesign Homepage</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        section {
+            padding-left: 50px;
+        }
+    </style>
+
+    <style>
+        div.container {
+            text-align: left;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Company </span>placeholder</h1>
+            </div>
+            <nav>
+                <u1>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="current"><a href="packages.html">Packages</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="update.html">Update</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </u1>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+
+        <div class="container">
+            <h3>Select the package(s) that you need:</h3>
+        </div>
+
+        <form action="/action_page.php">
+           
+            <input type="checkbox" id="package1" name="package1" value="Medical Package">
+            <label for="vehicle1"> Medical Supply Package</label><br>
+            <input type="checkbox" id="package2" name="package2" value="Food Package">
+            <label for="vehicle2"> 14-Day Food Supply</label><br>
+            <input type="checkbox" id="package3" name="package3" value="COVID Prevention Package">
+            <label for="vehicle3"> COVID Safety Measure Supply</label><br>
+            <input type="checkbox" id="package4" name="package4" value="Electronics">
+            <label for="vehicle3"> Electronic Devices </label><br>
+
+        </form>
+        <h3>Submit your information: </h3>
+
+        <form action="covidinfo.php" method= "post">
+            <fieldset>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" value=" "><br>
+                <label for="address">Address:</label><br>
+                <input type="text" id="address" name="address" value=" "><br>
+                <label for="city">City:</label><br>
+                <input type="text" id="city" name="city" value=" "><br>
+                <label for="state">State:</label><br>
+                <input type="text" id="state" name="state" value=" "><br>
+                <label for="zipcode">Zipcode:</label><br>
+                <input type="text" id="zipcode" name="zipcode" value=" "><br>
+                <label for="email">Email Address:</label><br>
+                <input type="text" id="email" name="email" value=" "><br>
+                <br />
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+
+        <p>
+            *You will be contacted by email within 3-5 business days.
+        </p>
+    </section>
+
+
+
+</body>
+</html>
