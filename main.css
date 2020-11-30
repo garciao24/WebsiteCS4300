@@ -5,7 +5,7 @@
         color: white;
         text-align:center;
     }
-    h2, h3, h4 {
+    h1, h2, h3 {
         font-family: 'Prata';
         margin-top: 0;
         margin-bottom: 2em;
@@ -26,18 +26,45 @@
         column-gap: 2em;
     }
     img {
-        width: 60%;
+        width: 80%;
         margin: lem 0 0;
     }
-    @media only screen and (min-width:900px){
+    @media only screen and (min-width:950px){
         body{
             text-align: left;
-            font-size: 10px;
+            font-size: 15px;
         }
     p{
         line-height: 1.6em;
     }
     section {
         column-count: 2;
+        column-rule-style:solid;
+        column-rule-color: rgb(43,43,43);
     }
+    section > * {
+        margin-top: 0;
     }
+    h1{
+        font-size: 1rem;
+        margin: 2em 0 1 em;
+    }
+    .outer {
+        padding: 4 em;
+    }
+    article {
+        padding: 2em;
+        background: #181818;
+    } 
+    .secondary{
+        margin-top: 2em;
+    }
+    img{
+        width: 100%;
+    }
+    h3{
+        color: rgb(199,199,199);
+        margin: 1.5em 0 1em;
+    }  
+}
+
