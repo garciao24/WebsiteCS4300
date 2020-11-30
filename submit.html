@@ -11,17 +11,19 @@
 
     <style>
         section {
-            padding-left: 50px;
+            padding-left: 55px;
         }
     </style>
-
-    <style>
-        div.container {
-            text-align: left;
-        }
-    </style>
+	
+	<style>
+    body{
+		background-image: url("./img/virus.jpg") no-repeat center fixed;
+		background-size: cover;
+		}
+	</style>
 
 </head>
+	
 <body>
     <header>
         <div class="container">
@@ -42,10 +44,9 @@
 
     <section id="showcase">
 
-        <div class="container">
-            <h3>Select the package(s) that you need:</h3>
-        </div>
 
+        <h3>Select the package(s) that you need:</h3>
+  
         <form action="/action_page.php">
            
             <input type="checkbox" id="package1" name="package1" value="Medical Package">
@@ -60,8 +61,8 @@
         </form>
         <h3>Submit your information: </h3>
 
-        <form action="covidinfo.php" method= "post">
-            <fieldset>
+        <form action="file:///C:/Users/ltea29/Desktop/WebsiteCS4300/sucessful.html" method= "post">
+           
                 <label for="name">Name:</label><br>
                 <input type="text" id="name" name="name" value=" "><br>
                 <label for="address">Address:</label><br>
@@ -76,11 +77,11 @@
                 <input type="text" id="email" name="email" value=" "><br>
                 <br />
                 <input type="submit" value="Submit">
-            </fieldset>
+           
         </form>
 
         <p>
-            *You will be contacted by email within 3-5 business days.
+            *You will be contacted by email within 2-4 business days.
         </p>
     </section>
 
