@@ -254,8 +254,93 @@
 		}
 		}
 	</style>
+	<style>
+	
+		import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-<div id="container">
+		html {
+		font-family: 'Montserrat', Arial, sans-serif;
+		-ms-text-size-adjust: 100%;
+		-webkit-text-size-adjust: 100%;
+		}
+
+		html {
+
+		  box-sizing: border-box;
+		}
+
+		*, *:before, *:after {
+		  box-sizing: inherit;
+		}
+
+		.column {
+		  float: left;
+		  width: 33.3%;
+		  margin-bottom: 16px;
+		  padding: 0 8px;
+		}
+
+		@media screen and (max-width: 650px) {
+		  .column {
+			width: 100%;
+			display: block;
+		  }
+		}
+
+		.card {
+		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		}
+
+		.container {
+		  padding: 0 16px;
+		}
+
+		.container::after, .row::after {
+		  content: "";
+		  clear: both;
+		  display: table;
+		}
+
+		.title {
+		  color: grey;
+		}
+		
+			h2 {
+		color: #474544;
+		font-size: 32px;
+		font-weight: 700;
+		letter-spacing: 7px;
+		text-align: center;
+		text-transform: uppercase;
+		}
+		
+		.button {
+			background: none;
+			border: solid 2px #474544;
+			color: #474544;
+			cursor: pointer;
+			display: inline-block;
+			font-family: 'Montserrat', Arial, sans-serif;
+			font-size: 0.875em;
+			font-weight: bold;
+			outline: none;
+			padding: 20px 35px;
+			text-transform: uppercase;
+			-webkit-transition: all 0.3s;
+			-moz-transition: all 0.3s;
+			-ms-transition: all 0.3s;
+			-o-transition: all 0.3s;
+			transition: all 0.3s;	
+		}
+
+		.button:hover {
+		  background: #474544;
+		  color: #F2F3EB;
+		}
+	</style>
+	
+	
+  <div id="container">
   <h1>&bull; Contact Us &bull;</h1>
   <div class="underline">
   </div>
@@ -289,7 +374,72 @@
       <input type="submit" value="Send Message" id="form_button" />
     </div>
   </form><!-- // End form -->
-</div><!-- // End #container -->
+  </div><!-- // End #container -->
+
+	<h2>&bull; Meet Our Team &bull;</h2>
+
+	<br>
+
+	<div class="row">
+	  <div class="column">
+		<div class="card">
+		  <div class="container">
+			<h2>Oscar Garcia</h2>
+			<p class="title">Lead Coordinator & Founder</p>
+			<p>832-123-1231.</p>
+			<p>garciao24@gator.uhd.edu</p>
+			<p><button class="button">Contact</button></p>
+		  </div>
+		</div>
+	  </div>
+	<div class="row">
+	  <div class="column">
+		<div class="card">
+		  <div class="container">
+			<h2>Lucy Tea</h2>
+			<p class="title">Packages Coordinator</p>
+			<p>713-123-4321</p>
+			<p>teal1@gator.uhd.edu</p>
+			<p><button class="button">Contact</button></p>
+		  </div>
+		</div>
+	  </div>
+	  <div class="row">
+	  <div class="column">
+		<div class="card">
+		  <div class="container">
+			<h2>Raj Asarpota</h2>
+			<p class="title">Senior Web Developer</p>
+			<p>832-234-5432</p>
+			<p>asarpotar1@gator.uhd.edu</p>
+			<p><button class="button">Contact</button></p>
+		  </div>
+		</div>
+	  </div>
+	  <div class="column">
+		<div class="card">
+		  <div class="container">
+			<h2>Erick Coreas</h2>
+			<p class="title">Donation Coordinator</p>
+			<p>281-123-4567</p>
+			<p>corease2@gator.uhd.edu</p>
+			<p><button class="button">Contact</button></p>
+		  </div>
+		</div>
+	  </div>
+	  
+	  <div class="column">
+		<div class="card">
+		  <div class="container">
+			<h2>David Dillon</h2>
+			<p class="title">I.T. Executive</p>
+			<p>281-098-7654</p>
+			<p>dilliond8@gator.uhd.edu</p>
+			<p><button class="button">Contact</button></p>
+		  </div>
+		</div>
+	  </div>
+	</div>
 
 
    </body>  
