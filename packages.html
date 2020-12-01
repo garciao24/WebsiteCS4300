@@ -15,18 +15,53 @@
 		background-image: url("./img/helpinghands.jpg");
 		background-repeat: no-repeat;
 		background-position: 50px 100px
-		background-size: 300px 50px;
+		background-size: 300px 40px;
 		}
 		
 	section.h1 {
 		padding: 5px;
 		}
+		
+	section.showcase{
+		text-align: center;
+		}
 	
 	</style>
+	
+	<style>
+              div.gallery {
+                  margin: 15px;
+                  float: left;
+                  width: 200px;
+                  padding: 50px;
+				  padding-top: 20px;
+              }
+
+                  div.gallery img {
+                      width: 100%;
+                      height: auto;
+                  }
+
+              div.desc {
+                  padding: 15px;
+                  text-align: left;
+              }
+			  
+			  div.container {
+				  padding left: 15px;
+				  
+			  }
+			  
+			  div.title {
+				  margin-left: 60px;
+				  margin-top:20px;
+				  }
+			  
+          </style>
 
 	
   <body>
-  
+	  
       <header>
         <div class="container">
          <div id="branding">
@@ -50,44 +85,31 @@
 			margin: 80px;
 			}
 			
+		footer {
+            text-align: top left;
+			padding: 300px;
+            background-color: #ff6666;
+			background-position: bottom;
+			
+			}
+			
 	  </style>
 	  
 
-      <section id="showcase">
-          <div class="container">
-              <h2>Click on a package to complete your information:</h2>
-          </div>
+			
 		  
-          <style>
-              div.gallery {
-                  margin: 10px;
-                  float: left;
-                  width: 180px;
-                  padding: 30px;
-              }
-
-                  div.gallery img {
-                      width: 100%;
-                      height: auto;
-                  }
-
-              div.desc {
-                  padding: 15px;
-                  text-align: center;
-              }
-			  
-			  div.container {
-				  padding left: 15px;
-				  
-			  }
-			  
-          </style>
-
-          <div class="gallery">
+      <section id="showcase">
+          <div class="title">
+		  
+              <h2>Click on a package to complete your information:</h2>
+            
+		  </div>
+          
+		  <div class="gallery">
               <a target="_blank" href="file:///C:/Users/ltea29/Desktop/WebsiteCS4300/submit.html">
                   <img src="./img/medicalImage.jpg" alt="Medical Supplies" width="600" height="400">
               </a>
-              <div class="desc">This package contains medications such as:</div>
+              <div class="desc"><strong>This package contains medications such as:</strong></div>
 
               <ul>
                   <li>Ibuprofen</li>
@@ -106,7 +128,8 @@
               <a target="_blank" href="file:///C:/Users/ltea29/Desktop/WebsiteCS4300/submit.html">
                   <img src="./img/foodSupply.jpg" alt="Food" width="600" height="400">
               </a>
-              <div class="desc">This package contains an emergency 14-day food supply that may consist of:</div>
+              <div class="desc"><strong>This package contains an emergency 14-day food supply that may consist of:
+			  </strong></div>
 
               <ul>
                   <li>Canned vegetables</li>
@@ -127,7 +150,8 @@
               <a target="_blank" href="file:///C:/Users/ltea29/Desktop/WebsiteCS4300/submit.html">
                   <img src="./img/covidSupplies.jpg" alt="Covid Supplies" width="600" height="400">
               </a>
-              <div class="desc">This package contains supplies for COVID safety measures such as:</div>
+              <div class="desc"><strong>This package contains supplies for COVID safety measures such as:
+			  </strong></div>
 
               <ul>
                   <li>Hand sanitizer</li>
@@ -146,7 +170,8 @@
               <a target="_blank" href="file:///C:/Users/ltea29/Desktop/WebsiteCS4300/submit.html">
                   <img src="./img/electronicDonations.jpg" alt="Education" width="600" height="400">
               </a>
-              <div class="desc">This package may contain electronic devices and educational material for students in need such as:</div>
+              <div class="desc"><strong>This package may contain electronic devices and educational material for students in need such as:
+			  </strong></div>
 
               <ul>
                   <li>Refurbished laptops</li>
@@ -155,15 +180,20 @@
                   <li>Notebooks</li>
                   <li>Pens and pencil</li>
                   <li>Educational books (Grade level based)</li>
+				  <li>Exercise video access</li>
+				  <li>Tutoring online access</li>
 
               </ul>
 
           </div>
-
-
+        <footer>
+			
+        </footer>
       </section>
-
-
+	  
    </body>  
+   
+   
+   
 </html>
 
