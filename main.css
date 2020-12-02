@@ -5,12 +5,12 @@
         color: white;
         text-align:center;
     }
-    h1, h2, h3 {
+    h2, h3{
         font-family: 'Prata';
-        margin-top: 0;
-        margin-bottom: 2em;
+        margin-top: 0em;
+        margin-bottom: 1em;
     }
-    h3 {
+    h4 {
         color: rgb(199,199,199);
     }
     p{
@@ -26,7 +26,7 @@
         column-gap: 2em;
     }
     img {
-        width: 80%;
+        width: 70%;
         margin: lem 0 0;
     }
     @media only screen and (min-width:950px){
@@ -35,7 +35,7 @@
             font-size: 15px;
         }
     p{
-        line-height: 1.6em;
+        line-height: 1.5em;
     }
     section {
         column-count: 2;
@@ -43,9 +43,9 @@
         column-rule-color: rgb(43,43,43);
     }
     section > * {
-        margin-top: 0;
+        margin-top: 1;
     }
-    h1{
+    h2{
         font-size: 1rem;
         margin: 2em 0 1 em;
     }
@@ -60,11 +60,7 @@
         margin-top: 2em;
     }
     img{
-        width: 100%;
+        width: 90%;
     }
-    h3{
-        color: rgb(199,199,199);
-        margin: 1.5em 0 1em;
-    }  
 }
 
