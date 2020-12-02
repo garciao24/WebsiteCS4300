@@ -1,0 +1,24 @@
+       body{
+	background-image: url("../img/charity.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 1565px 750px;
+	background-attachment: fixed;
+	}
+		
+		
+        div.profile {
+	  text-align: center;
+          width: 600px;
+          border: 6px solid #000080;
+	  background-color: #f2f2f2;
+          padding: 25px;
+          margin-left: 300px;
+	  margin-right: 100px;
+	  margin-top: 50px;
+	  position: relative 50px;
+	  }  
+
+        div.about{
+          text-align: left;
+          }
