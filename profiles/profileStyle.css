@@ -1,11 +1,10 @@
-       body{
-	background-image: url("../img/charity.jpg");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 1565px 750px;
-	background-attachment: fixed;
-	}
-		
+        body{
+	  background-image: url("../img/charity.jpg");
+          background-repeat: no-repeat;
+	  background-position: center;
+	  background-size: 1565px 750px;
+	  background-attachment: fixed;
+          }
 		
         div.profile {
 	  text-align: center;
