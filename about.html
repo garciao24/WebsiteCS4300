@@ -36,7 +36,8 @@
            position: fixed;
            bottom: 0;
            width: 100%;
-           height: 60px;
+           height: 65px;
+	        border-top:#e8491d 3px solid;
            background-color: #02075d;
            color: white;
            text-align: center;
@@ -47,8 +48,8 @@
 
         .flexbox 
         {
-           width: 800px;
-           height: 900px;
+           width: 550px;
+           height: 950px;
            display: -webkit-box;
            display: box;
            -webkit-box-orient: center;
@@ -68,9 +69,9 @@
            padding: 40px 40px 40px 40px;
            box-shadow: 10px 10px 10px dimgrey;
         }
-        .flexbox > div:nth-child(1){ background-color: #92a7af; }
-        .flexbox > div:nth-child(2){ background-color: #adbac0; }
-        .flexbox > div:nth-child(3){ background-color: #cacfd1; }
+        .flexbox > div:nth-child(1){ background-color: #92a9b1; }
+        .flexbox > div:nth-child(2){ background-color: #aecad3; }
+        .flexbox > div:nth-child(3){ background-color: #c3e2ec; }
 
         .flexbox > div:hover { 
            width: 500px; color: white; font-weight: bold; }
@@ -79,7 +80,11 @@
         .flexbox > div:nth-child(3):hover { background-color: #e8491d; }
         p { height: 280px; overflow: hidden; font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; }
     
-    img {max-width:80%;}
+    img {max-width:50%;}
+	
+	.flexbox > div.extend {
+		overflow: scroll;}
+		
      </style>
    </head>
 
@@ -87,7 +92,7 @@
       <header>
         <div class="container">
          <div id="branding">
-           <h1><span class="highlight">Company </span>placeholder</h1>
+           <h1><span class="highlight">Covid </span>Relief fdn.</h1>
         </div>
         <nav>
           <u1>
@@ -109,7 +114,7 @@
         2px -4px 0px #ffffff,
         -4px 6px 0px #a8a8a8,
         4px -6px 0px #a8a8a8;;;;;">
-      Get to know who we are.
+      Get to Know Who We Are
       </strong></h1>
       
       <div class = "flexbox">
@@ -118,11 +123,8 @@
                 About Us:
             </strong></h1>
          <p>
-            A group of friends and associates that have found each other having a similar 
-            passion to help the world. 
-         </p>
-         <p>
-            Many do not have the time to give, and we understand 
+            We are group of friends and associates that have found each other having a similar 
+            passion to help the world. Many do not have the time to give, and we understand 
             that. So we have made an effort to set time aside to help every day, and your 
             support directly contributes to this.
 		 </p></div>
@@ -131,7 +133,7 @@
         <h1 style = "width: 75%; text-align: center; text-shadow: 2px 2px 6px DimGrey;">
             Our Cause:
         </strong></h1>
-            Founded in May of 2020, we have been working to serve our communities is the best 
+               Founded in May of 2020, we have been working to serve our communities is the best 
                way possible. Here we colaborate with pharmacies, clinics, and other buisnesses to 
                gather the resources and funds to help provide a path to beating Covid-19. We 
                strive to see not only our communities become and stay the most healthy, but the 
@@ -141,14 +143,28 @@
                medicine and support
          </p></div>
          
-         <div><img src = "./img/accompl_icon.png" alt = "./img/Whoops.png">
+         <div  class ="extend"> <img src = "./img/accompl_icon.png" alt = "./img/Whoops.png">
             <h1 style = "width: 75%; text-align: center; text-shadow: 2px 2px 6px DimGrey;">
                 Accomplishment so far:
             </strong></h1>
         <ol> - Started in May of 2020 -</strong></ol>
                  <li>Charity</li>
+                 <ul>
+                    <li>June 2020 - Commentment from City Official</li>
+                    <li>July 2020 - Suopport recieved from local <br> BP Group</li>
+                    <li>November 2020 - Received space with AWS</li>
+                 </ul>
                  <li>Donations</li>
+                 <ul>
+                    <li>May 2020 - Made first donations to local <br> charities</li>
+                    <li>July 2020 - Supported the local Methodist <br> Medical group</li>
+                    <li>August 2020 - Saw 200 nurses receive a lunch</li>
+                 </ul>
                  <li>Training</li>
+                 <ul>
+                    <li>May 2020 - Found 2 new volonteers</li>
+                    <li>Aug 2020 - Grew to 20 total volonteers</li>
+                 </ul>
           
         <ol> - Future Plans -</strong></ol>
                 <li>Working</li>
@@ -156,16 +172,19 @@
          </div>
      </section>
 
-      <div class="footer">
-      <p>Footer</p>
-      <div class="container">
-         <h1 style="color:#ffffff;">Subscribe for News and Volunteer opportunities</h1>
-         <form>
-           <input type="email" placeholder="Enter Email...">
-           <button type="submit" class="button_1" onclick="alert('Thank you for subscribing')">Subscribe</button>
-         </form>
-        </div>
-      </div>
+     <section>
+        <p>
+           -
+        </p>
+     </section>
+         
+     <section>
+         <div class="footer">
+	    <h1>
+            <p><a href = "https://garciao24.github.io/WebsiteCS4300/contact.html" style="color: #ffffff">Subscribe to our Newsletter or Contact Us</a></p>
+	    </h1>
+         </div>
+     </section>
 
    </body>  
 </html>
